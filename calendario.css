@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+   
+  #calendar {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid rgb(81, 81, 219);
+  }
+   
+  #calendar th {
+    background-color: #9fc8f3; 
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+  }
+   
+  #calendar th.domingo {
+    color: red;
+  }
+   
+  #calendar td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+  }
+   
+  #calendario a {
+    font-weight: bold;
+    font-size: 20px;
+  }
+   
+  label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+   
+  input[type="number"] {
+    width: 60px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+   
+  input[type="submit"] {
+    padding: 15px 30px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+   
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
